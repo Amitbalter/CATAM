@@ -1,0 +1,36 @@
+%peak in surface density table
+
+% for i  = [0,2,8,32,128,512]
+%     [m,k] = max(sig(2000*i+1,:));
+%     fprintf('%.5f & %.4f \\\\ \n',m,X(k)^2);
+% end
+
+%Total angular momentum calculation
+
+
+%Peak of angular momentum surface density plot
+t = 0
+Y = 0.8:0.0005:1.2;
+Int = 2*(X.^4).*sig(2000*t+1,:)
+trapz(X,Int)
+
+N = nT-1;
+M = zeros(1,N);
+Time = zeros(1,N);
+for i = 1:N
+    [l,M(i)] = max(X.*sig((nT-1)*i/N,:));
+    Time(i) = ((nT-1)*i)*dT/N;
+end
+f = fit(transpose(Time),transpose(X(M)),'poly9');
+plot(f,transpose(Time),transpose(X(M)))
+
+
+% N = nT-1;
+% M = zeros(1,N);
+% Time = zeros(1,N);
+% for i = 1:N
+%     [l,M(i)] = max(X.*sig((nT-1)*i/N,:));
+%     Time(i) = ((nT-1)*i)*dT/N;
+% end
+% f = fit(transpose(Time),transpose(X(M)),'poly9');
+% plot(f,transpose(Time),transpose(X(M)))
