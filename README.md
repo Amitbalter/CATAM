@@ -1,1 +1,1 @@
-These are projects completed as part of my Mathematics degree
+These are projects completed during the second and third years of my Mathematics degree
