@@ -1,0 +1,353 @@
+\documentclass[14pt]{extarticle}
+\usepackage[left = 3cm, right = 3cm, top = 3cm, bottom = 3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\usepackage{listings}
+\lstset{ 
+	language=Matlab,                		% choose the language of the code
+	numbers=left,                  			% where to put the line-numbers
+	numberstyle=\footnotesize,      		% the size of the fonts that are used for the line-numbers
+	stepnumber=1,                   			% the step between two line-numbers. If it's 1 each line will be numbered
+	numbersep=5pt,                  		% how far the line-numbers are from the code
+%	backgroundcolor=\color{white},  	% choose the background color. You must add \usepackage{color}
+	showspaces=false,               		% show spaces adding particular underscores
+	showstringspaces=false,         		% underline spaces within strings
+	showtabs=false,                 			% show tabs within strings adding particular underscores
+%	frame=single,	                			% adds a frame around the code
+%	tabsize=2,                				% sets default tabsize to 2 spaces
+%	captionpos=b,                   			% sets the caption-position to bottom
+	breaklines=true,                			% sets automatic line breaking
+	breakatwhitespace=false,        		% sets if automatic breaks should only happen at whitespace
+	escapeinside={\%*}{*)}          		% if you want to add a comment within your code
+}
+
+
+\begin{document}
+
+\begin{flushleft}
+\begin{LARGE}
+\textbf{1.1}
+\end{LARGE}
+\end{flushleft}
+
+\vfill
+\begin{center}
+\begin{Huge}Matrices over Finite Fields\end{Huge}
+\end{center}
+\vfill
+
+\pagebreak
+
+\begin{center}
+\textbf{Question 1}
+\end{center}
+\vspace{-5mm}
+
+\begin{table}[htp!]
+\centering
+\caption{Inverses of the non-zero elements of $F$ with $p = 11$ and $p=7$}
+\begin{tabular}{ccc}
+\\
+Element & Inverse (mod 11) & Inverse (mod 7)\\ [0.5ex]
+ 1 &  1  &  1\\ 
+ 2 &  6  &  4\\ 
+ 3 &  4  &  5\\ 
+ 4 &  3  &  2\\ 
+ 5 &  9  &  3\\ 
+ 6 &  2  &  6\\ 
+ 7 &  8  &  -\\ 
+ 8 &  7  &  -\\ 
+ 9 &  5  &  -\\ 
+10 & 10  &  -\\ 
+\end{tabular}
+\label{table:1}
+\end{table}
+
+\textbf{Modification}. After computing the inverse of an element we can store both the inverse in the position of the element and the element in the position of its inverse. Hence we need to compute the inverses for half the elements, speeding up the procedure by roughly a factor of 2.
+
+\begin{center}
+\textbf{Question 2}
+\end{center}
+
+\textbf{Complexity}. Let the number of steps the mod operation takes be a constant $C$. Checking if mod($ab$) equals 1 takes one step. For each $a$ we have $(p-1)$ values of $b$ to check. Storing the inverse takes one step. Hence for each $a$ we use $(C+1)(p-1)+1$ steps. We have $(p-1)$ values for $a$ so the overall complexity is $O((p-1)((C+1)(p-1)+1)) = O(p^2)$.
+
+\begin{center}
+\textbf{Question 3}
+\end{center}
+ 
+\begin{itemize}
+\item $A_1$ (mod 11)
+	\begin{itemize}
+	\item Row Echelon Form = $\begin{pmatrix} 
+  								1 &  0 &  3 &  0 &  0 \\ 
+  								0 &  1 &  7 &  0 &  0 \\ 
+  								0 &  0 &  0 &  1 &  0 \\ 
+  								0 &  0 &  0 &  0 &  1 \\ 
+							\end{pmatrix}$
+	\item Rank = 4\\
+	\item Basis = $\left \{
+					\begin{pmatrix}  1 \\  0 \\  3 \\  0 \\  0 \\\end{pmatrix},  
+					\begin{pmatrix}  0 \\  1 \\  7 \\  0 \\  0 \\\end{pmatrix},
+					\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  0 \\\end{pmatrix},
+					\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\\end{pmatrix} 
+				  \right \}$\\
+	\end{itemize}
+\item $A_1$ (mod 19)
+	\begin{itemize}
+	\item Row Echelon Form = $\begin{pmatrix} 
+  								1 &  0 &  0 &  0 & 13 \\ 
+  								0 &  1 &  0 &  0 &  6 \\ 
+  								0 &  0 &  1 &  0 &  3 \\ 
+  								0 &  0 &  0 &  1 &  1 \\ 
+							\end{pmatrix} $\\
+	\item Rank = 4\\
+	\item Basis = $\left \{
+					\begin{pmatrix}  1 \\  0 \\  0 \\  0 \\ 13 \\\end{pmatrix}, 
+					\begin{pmatrix}  0 \\  1 \\  0 \\  0 \\  6 \\\end{pmatrix},
+					\begin{pmatrix}  0 \\  0 \\  1 \\  0 \\  3 \\\end{pmatrix}, 
+					\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  1 \\\end{pmatrix} 
+				\right \}$\\
+	\end{itemize}
+\item $A_2$ (mod 23)
+	\begin{itemize}
+	\item Row Echelon Form = $\begin{pmatrix} 
+  								1 &  0 &  0 &  9 & 11 &  9 \\ 
+  								0 &  1 &  0 & 10 &  5 &  5 \\ 
+ 								0 &  0 &  1 &  9 & 14 &  7 \\ 
+ 								0 &  0 &  0 &  0 &  0 &  0 \\ 
+							\end{pmatrix} $\\
+	\item Rank = 3\\
+	\item Basis = $\left \{
+					\begin{pmatrix}  1 \\  0 \\  0 \\  9 \\ 11 \\  9 \\\end{pmatrix},
+					\begin{pmatrix}  0 \\  1 \\  0 \\ 10 \\  5 \\  5 \\\end{pmatrix}, 
+					\begin{pmatrix}  0 \\  0 \\  1 \\  9 \\ 14 \\  7 \\\end{pmatrix}
+				\right \}$ 
+	\end{itemize}
+\end{itemize}
+
+\pagebreak 
+
+\begin{center}
+\textbf{Question 4}
+\end{center}
+
+\textbf{Algorithm}. Since the original matrix and the $REF$ matrix have the same row space, they have the same kernel.
+
+Let $S = \left \{l(1),\dots,l(r)\right \}$ and $T = [n]\setminus S$. Expanding out $A\textbf{x} = 0$, for each $l(i) \in S$ we have
+\[x_{l(i)} = -\sum_{j \in T}A_{ij}x_j\]
+On the RHS, we let one of the $x_j$ equal -1 and all the others equal 0, which determines the $x_{l(i)}$. Doing this for each $x_j$ on the RHS yields $n-r$ vectors which are clearly linearly independent. Since the rank is $r$, the dimension of the kernel is $n-r$, and so they form a basis.\\
+
+\textbf{Bases}
+
+\begin{itemize}
+\item $B_1$ (mod 13):
+	Kernel basis = $\left \{
+					\begin{pmatrix}  6 \\ 11 \\ 12 \\ 11 \\ -1 \\\end{pmatrix} 
+				\right \}$\\
+\item $B_1$ (mod 17):
+	Kernel basis = $\left \{ \textbf{0} \right \}$ \\
+\item $B_2$ (mod 23):
+	Kernel basis = $\left \{
+					\begin{pmatrix} 17 \\ 17 \\ 14 \\ 14 \\ 14 \\ -1 \\\end{pmatrix}
+				\right \}$	\\
+
+\end{itemize}
+
+\begin{center}
+\textbf{Question 5}
+\end{center}
+
+\[\dim{U} + \dim{U^{\circ}} = n\]
+
+\pagebreak
+
+\begin{center}
+\textbf{Question 6}
+\end{center}
+
+We use the program from Q4 to find the kernel of $A_1$, which is $U^{\circ}$
+
+\[U^{\circ} = \left \{ \begin{pmatrix} 13 \\  6 \\  3 \\  1 \\ -1 \\\end{pmatrix} \right \}\]
+
+We form a matrix $A_1^{\circ}$ whose rows are the kernel basis vectors and reduce it to $REF$
+
+\[
+A_1^{\circ} = \begin{pmatrix} 
+ 13 &  6 &  3 &  1 & -1 \\ 
+\end{pmatrix}\;
+REF  = \begin{pmatrix} 
+  1 & 18 &  9 &  3 & 16 \\  
+\end{pmatrix} 
+\]
+
+We find the kernel of $A_1^{\circ}$ and write it in matrix form. Reducing $A_1^{\circ \, \circ}$ to $REF$ gives a basis for $(U^{\circ})^{\circ}$
+ 
+\[
+A_1^{\circ \, \circ} = \begin{pmatrix} 
+ 18 & -1 &  0 &  0 &  0 \\ 
+  9 &  0 & -1 &  0 &  0 \\ 
+  3 &  0 &  0 & -1 &  0 \\ 
+ 16 &  0 &  0 &  0 & -1 \\ 
+\end{pmatrix} 
+REF = \begin{pmatrix} 
+  1 &  0 &  0 &  0 & 13 \\ 
+  0 &  1 &  0 &  0 &  6 \\ 
+  0 &  0 &  1 &  0 &  3 \\ 
+  0 &  0 &  0 &  1 &  1 \\ 
+\end{pmatrix} 
+\]
+
+So we have
+
+\[(U^{\circ})^{\circ} = \left \{
+\begin{pmatrix}  1 \\  0 \\  0 \\  0 \\ 13 \\\end{pmatrix}, 
+\begin{pmatrix}  0 \\  1 \\  0 \\  0 \\  6 \\\end{pmatrix},
+\begin{pmatrix}  0 \\  0 \\  1 \\  0 \\  3 \\\end{pmatrix}, 
+\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  1 \\\end{pmatrix} 
+\right \}
+\]\\
+
+which is clearly the same as $U$. Hence $(U^{\circ})^{\circ} = U$.\\
+
+\textbf{Method}. To check if two subspaces are equal we write both as matrices and reduce both to $REF$. By the uniqueness$^1$ of $REF$ they are equal iff they have the same $REF$.
+
+\pagebreak
+\begin{center}
+\textbf{Question 7}
+\end{center}
+
+\textbf{Program}. To compute a basis for a row space we use gaussian elimination on its corresponding matrix. 
+
+The \textbf{Sum} function finds a basis for $U+W$. It starts by concatenating the matrices $A$ and $B$ together (so that $A$ is on top of $B$). The row space of this matrix spans $U+W$. It puts this matrix into $REF$ which achieves linear independence. 
+
+The \textbf{Inter} function finds a basis for $U \cap W$. We use the second relation from the text, $U \cap W = (U^{\circ} + W^{\circ})^{\circ}$. It is implemented using the kernel function from Q4 and the Sum function.
+
+\begin{itemize}
+\item Modulo 11 with $U$ the row space of $A_1$ and $W$ the row space of $B_1$
+	\[
+	U = \left \{
+		\begin{pmatrix}  1 \\  0 \\  3 \\  0 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  7 \\  0 \\  0 \\\end{pmatrix},
+		\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\\end{pmatrix} 
+		\right \}	\hspace{5mm}	
+	W = \left \{
+		\begin{pmatrix}  1 \\  0 \\  0 \\  2 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  0 \\  3 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  1 \\  4 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\\end{pmatrix} 
+	\right \} 
+	\]
+	\[
+	U+W = \mathrm{GF}(11)^5 \hspace{29mm}
+	U \cap W = \left \{
+		\begin{pmatrix}  1 \\  0 \\  3 \\  3 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  7 \\  9 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\\end{pmatrix}
+		\right \}
+		\]
+
+\item Modulo 19 with $U$ the row space of $A_3$ and $W$ the kernel of $A_3$
+	\[
+	U = \left \{
+		\begin{pmatrix}  1 \\  0 \\  0 \\  0 \\  0 \\  6 \\  1 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  0 \\  0 \\  0 \\  3 \\ 14 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  1 \\  0 \\  0 \\ 16 \\  9 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  0 \\  0 \\  8 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\ 17 \\  6 \\\end{pmatrix}
+		\right \} \hspace{5mm}
+	V = \left \{
+		\begin{pmatrix}  1 \\  0 \\  9 \\ 18 \\  6 \\  1 \\ 12 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  0 \\  2 \\  0 \\  4 \\ 14 \\\end{pmatrix}  
+		\right \}
+	\]
+	\[
+	U+W = \mathrm{GF}(19)^7 \hspace{29mm}
+	U \cap W = \left \{ \textbf{0} \right \}
+	\]
+\item Modulo 23 with $U$ the row space of $A_3$ and $W$ the kernel of $A_3$
+	\[
+	U = \left \{
+		\begin{pmatrix}  1 \\  0 \\  0 \\  0 \\  0 \\  8 \\ 22 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  0 \\  0 \\  0 \\  3 \\ 18 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  1 \\  0 \\  0 \\ 21 \\  6 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  0 \\  4 \\  0 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\  5 \\  8 \\\end{pmatrix} 
+		\right \} \hspace{5mm}
+	W = \left \{
+		\begin{pmatrix}  1 \\  0 \\ 17 \\  8 \\ 15 \\ 21 \\  8 \\\end{pmatrix}, 
+ 		\begin{pmatrix}  0 \\  1 \\  0 \\  3 \\  0 \\  5 \\ 17 \\\end{pmatrix} 
+ 	\right \}
+ 	\]
+ 	\[
+ 	U+W = \left \{
+ 		\begin{pmatrix}  1 \\  0 \\  0 \\  0 \\  0 \\  0 \\ 12 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  1 \\  0 \\  0 \\  0 \\  0 \\ 20 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  1 \\  0 \\  0 \\  0 \\ 20 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  1 \\  0 \\  0 \\ 18 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  1 \\  0 \\ 19 \\\end{pmatrix}, 
+		\begin{pmatrix}  0 \\  0 \\  0 \\  0 \\  0 \\  1 \\  7 \\\end{pmatrix} 
+		\right \}
+		\]
+		\[
+	U \cap W = \left \{
+		\begin{pmatrix}  1 \\ 17 \\ 17 \\ 13 \\ 15 \\ 14 \\ 21 \\\end{pmatrix} 
+		\right \}
+	\]
+\end{itemize}
+
+We see that in each case we have \[\dim{(U+W)} = \dim{U} + \dim{W} - \dim{(U \cap W)}\]
+
+\begin{center}
+\textbf{Question 8}
+\end{center}
+
+\textbf{Feature}. In the last part of Q7, the intersection of the row space and the kernel is not trivial. Working over the real numbers, let $y$ be an element in both the kernel and the row space. We must have $y \cdot y$ = 0 so $y = \textbf{0}$. Hence their intersection is always $ \left \{ \textbf{0} \right \}$ over the real numbers.
+
+\pagebreak
+\noindent \textbf{References}\\
+$^1$ \url{https://en.wikipedia.org/wiki/Row_echelon_form}\\
+\\
+\begin{center}
+\textbf{Program} In.m \textbf{for Question 1}
+\end{center}
+\lstinputlisting[language=Matlab]{In.m}
+
+\begin{center}
+\textbf{Program} REF.m \textbf{for Question 3}
+\end{center}
+\lstinputlisting[language=Matlab]{REF.m}
+\pagebreak
+\begin{center}
+\textbf{Program} rk.m \textbf{for Question 3}
+\end{center}
+\lstinputlisting[language=Matlab]{rk.m}
+
+\begin{center}
+\textbf{Program} Ker.m \textbf{for Question 4}
+\end{center}
+\lstinputlisting[language=Matlab]{Ker.m}
+
+\begin{center}
+\textbf{Program} Sum.m \textbf{for Question 7}
+\end{center}
+\lstinputlisting[language=Matlab]{Sum.m}
+
+\begin{center}
+\textbf{Program} Inter.m \textbf{for Question 7}
+\end{center}
+\lstinputlisting[language=Matlab]{Inter.m}
+\pagebreak
+\begin{center}
+\textbf{Program} DM.m \textbf{to display matrix}
+\end{center}
+\lstinputlisting[language=Matlab]{DM.m}
+
+\begin{center}
+\textbf{Program} DB.m \textbf{to display basis}
+\end{center}
+\lstinputlisting[language=Matlab]{DB.m}
+
+\end{document}

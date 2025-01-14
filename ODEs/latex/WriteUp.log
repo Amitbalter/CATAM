@@ -1,0 +1,628 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.21)  23 MAR 2019 00:29
+entering extended mode
+**./WriteUp.tex
+(WriteUp.tex
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\extsizes\extarticle
+.cls"
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\extsizes\size14.clo
+"
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+) ("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\exscale.sty"
+Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.s
+ty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.st
+y"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.s
+ty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.s
+ty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks15
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.c
+fg"))
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
+ty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.s
+ty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphi
+cs.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex
+.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen114
+))
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen115
+) ("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
+y"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.s
+ty"
+\lst@mode=\count103
+\lst@gtempboxa=\box28
+\lst@token=\toks21
+\lst@length=\count104
+\lst@currlwidth=\dimen123
+\lst@column=\count105
+\lst@pos=\count106
+\lst@lostspace=\dimen124
+\lst@width=\dimen125
+\lst@newlines=\count107
+\lst@lineno=\count108
+\lst@maxwidth=\dimen126
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
+y"
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
+\lst@framebox=\box29
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.c
+fg"
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
+ty"
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+) (WriteUp.aux
+
+LaTeX Warning: Label `table:6' multiply defined.
+
+
+LaTeX Warning: Label `figure:6' multiply defined.
+
+)
+\openout1 = `WriteUp.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=624.25346pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-25.91173pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
+i"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen127
+\scratchbox=\box30
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen128
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks23
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
+ase.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarer
+r.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefine
+keys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.
+sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.
+sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkey
+s.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds
+.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex
+.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcm
+ds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count117
+ [1
+
+{C:/Users/Amit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--153
+
+ []
+
+[4]
+Overfull \hbox (2.053pt too wide) detected at line 179
+\OML/cmm/m/it/14.4 Y[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 C[] [][] \OT1/cmr
+/m/n/14.4 + \OML/cmm/m/it/14.4 C[] [][] \OT1/cmr/m/n/14.4 + []
+ []
+
+
+Overfull \hbox (48.45189pt too wide) detected at line 182
+\OML/cmm/m/it/14.4 C[] \OT1/cmr/m/n/14.4 = [] [] \OML/cmm/m/it/14.4 ; C[] \OT1/
+cmr/m/n/14.4 = [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+ []
+
+[5]
+Package epstopdf Info: Source file: <Euler.eps>
+(epstopdf)                    date: 2018-12-19 18:19:59
+(epstopdf)                    size: 17841 bytes
+(epstopdf)             Output file: <Euler-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-19 18:20:05
+(epstopdf)                    size: 6143 bytes
+(epstopdf)             Command: <epstopdf --outfile=Euler-eps-converted-to.pdf 
+Euler.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Euler-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<Euler-eps-converted-to.pdf, id=25, 360.34625pt x 291.0875pt>
+File: Euler-eps-converted-to.pdf Graphic file (type pdf)
+<use Euler-eps-converted-to.pdf>
+Package pdftex.def Info: Euler-eps-converted-to.pdf  used on input line 228.
+(pdftex.def)             Requested size: 324.30862pt x 261.97632pt.
+Package epstopdf Info: Source file: <RK4.eps>
+(epstopdf)                    date: 2018-12-19 18:20:54
+(epstopdf)                    size: 18942 bytes
+(epstopdf)             Output file: <RK4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-19 18:21:17
+(epstopdf)                    size: 6009 bytes
+(epstopdf)             Command: <epstopdf --outfile=RK4-eps-converted-to.pdf RK
+4.eps>
+(epstopdf)             \includegraphics on input line 235.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./RK4-eps-converted-to.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<RK4-eps-converted-to.pdf, id=26, 365.365pt x 291.0875pt>
+File: RK4-eps-converted-to.pdf Graphic file (type pdf)
+<use RK4-eps-converted-to.pdf>
+Package pdftex.def Info: RK4-eps-converted-to.pdf  used on input line 235.
+(pdftex.def)             Requested size: 328.82545pt x 261.97632pt.
+[6] [7 <./Euler-eps-converted-to.pdf> <./RK4-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <ErrorEuler.eps>
+(epstopdf)                    date: 2019-01-18 16:11:51
+(epstopdf)                    size: 39620 bytes
+(epstopdf)             Output file: <ErrorEuler-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-18 16:13:20
+(epstopdf)                    size: 6375 bytes
+(epstopdf)             Command: <epstopdf --outfile=ErrorEuler-eps-converted-to
+.pdf ErrorEuler.eps>
+(epstopdf)             \includegraphics on input line 275.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./ErrorEuler-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<ErrorEuler-eps-converted-to.pdf, id=44, 372.39125pt x 295.1025pt>
+File: ErrorEuler-eps-converted-to.pdf Graphic file (type pdf)
+<use ErrorEuler-eps-converted-to.pdf>
+Package pdftex.def Info: ErrorEuler-eps-converted-to.pdf  used on input line 27
+5.
+(pdftex.def)             Requested size: 335.14902pt x 265.58978pt.
+Package epstopdf Info: Source file: <ErrorLF.eps>
+(epstopdf)                    date: 2019-01-18 16:11:32
+(epstopdf)                    size: 46875 bytes
+(epstopdf)             Output file: <ErrorLF-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-18 16:13:21
+(epstopdf)                    size: 6987 bytes
+(epstopdf)             Command: <epstopdf --outfile=ErrorLF-eps-converted-to.pd
+f ErrorLF.eps>
+(epstopdf)             \includegraphics on input line 282.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./ErrorLF-eps-converted-to.pdf): PDF inclusion: 
+found PDF version <1.7>, but at most version <1.5> allowed
+<ErrorLF-eps-converted-to.pdf, id=45, 376.40625pt x 295.1025pt>
+File: ErrorLF-eps-converted-to.pdf Graphic file (type pdf)
+<use ErrorLF-eps-converted-to.pdf>
+Package pdftex.def Info: ErrorLF-eps-converted-to.pdf  used on input line 282.
+(pdftex.def)             Requested size: 338.76248pt x 265.58978pt.
+Package epstopdf Info: Source file: <ErrorRK4.eps>
+(epstopdf)                    date: 2019-01-18 16:11:19
+(epstopdf)                    size: 30965 bytes
+(epstopdf)             Output file: <ErrorRK4-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-18 16:13:22
+(epstopdf)                    size: 5736 bytes
+(epstopdf)             Command: <epstopdf --outfile=ErrorRK4-eps-converted-to.p
+df ErrorRK4.eps>
+(epstopdf)             \includegraphics on input line 289.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./ErrorRK4-eps-converted-to.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<ErrorRK4-eps-converted-to.pdf, id=46, 376.40625pt x 295.1025pt>
+File: ErrorRK4-eps-converted-to.pdf Graphic file (type pdf)
+<use ErrorRK4-eps-converted-to.pdf>
+Package pdftex.def Info: ErrorRK4-eps-converted-to.pdf  used on input line 289.
+
+(pdftex.def)             Requested size: 338.76248pt x 265.58978pt.
+[8] [9 <./ErrorEuler-eps-converted-to.pdf> <./ErrorLF-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+[10 <./ErrorRK4-eps-converted-to.pdf>] [11] [12] [13]
+Package epstopdf Info: Source file: <Q7_w=1.eps>
+(epstopdf)                    date: 2018-12-18 23:10:27
+(epstopdf)                    size: 53930 bytes
+(epstopdf)             Output file: <Q7_w=1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-18 23:10:37
+(epstopdf)                    size: 18396 bytes
+(epstopdf)             Command: <epstopdf --outfile=Q7_w=1-eps-converted-to.pdf
+ Q7_w=1.eps>
+(epstopdf)             \includegraphics on input line 418.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Q7_w=1-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<Q7_w=1-eps-converted-to.pdf, id=82, 362.35374pt x 294.09875pt>
+File: Q7_w=1-eps-converted-to.pdf Graphic file (type pdf)
+<use Q7_w=1-eps-converted-to.pdf>
+Package pdftex.def Info: Q7_w=1-eps-converted-to.pdf  used on input line 418.
+(pdftex.def)             Requested size: 289.88339pt x 235.27931pt.
+Package epstopdf Info: Source file: <Q7_w=2.eps>
+(epstopdf)                    date: 2018-12-18 23:14:52
+(epstopdf)                    size: 52658 bytes
+(epstopdf)             Output file: <Q7_w=2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-12-18 23:15:23
+(epstopdf)                    size: 18148 bytes
+(epstopdf)             Command: <epstopdf --outfile=Q7_w=2-eps-converted-to.pdf
+ Q7_w=2.eps>
+(epstopdf)             \includegraphics on input line 426.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Q7_w=2-eps-converted-to.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<Q7_w=2-eps-converted-to.pdf, id=83, 362.35374pt x 294.09875pt>
+File: Q7_w=2-eps-converted-to.pdf Graphic file (type pdf)
+<use Q7_w=2-eps-converted-to.pdf>
+Package pdftex.def Info: Q7_w=2-eps-converted-to.pdf  used on input line 426.
+(pdftex.def)             Requested size: 289.88339pt x 235.27931pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
+
+ []
+
+[14 <./Q7_w=1-eps-converted-to.pdf> <./Q7_w=2-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+[15]
+Package epstopdf Info: Source file: <Q8.eps>
+(epstopdf)                    date: 2019-01-21 15:52:08
+(epstopdf)                    size: 129192 bytes
+(epstopdf)             Output file: <Q8-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-01-21 15:52:17
+(epstopdf)                    size: 43323 bytes
+(epstopdf)             Command: <epstopdf --outfile=Q8-eps-converted-to.pdf Q8.
+eps>
+(epstopdf)             \includegraphics on input line 455.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Q8-eps-converted-to.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<Q8-eps-converted-to.pdf, id=106, 353.32pt x 294.09875pt>
+File: Q8-eps-converted-to.pdf Graphic file (type pdf)
+<use Q8-eps-converted-to.pdf>
+Package pdftex.def Info: Q8-eps-converted-to.pdf  used on input line 455.
+(pdftex.def)             Requested size: 317.98506pt x 264.68642pt.
+
+Overfull \hbox (17.8386pt too wide) detected at line 461
+\OML/cmm/m/it/14.4 []\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 y[] \OT1/cmr/m/n/14
+.4 + \OML/cmm/m/it/14.4 y[]\OT1/cmr/m/n/14.4 ) + (\OML/cmm/m/it/14.4 y[] \OT1/c
+mr/m/n/14.4 + \OML/cmm/m/it/14.4 y[] \OT1/cmr/m/n/14.4 + \OML/cmm/m/it/14.4 y[]
+y[] \OMS/cmsy/m/n/14.4   [] \OML/cmm/m/it/14.4 t\OT1/cmr/m/n/14.4 ) + \OML/cmm/
+m/it/14.4 \OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 y[] \OT1/cmr/m/n/14.4 + \OML/c
+mm/m/it/14.4 y[] \OT1/cmr/m/n/14.4 + 2\OML/cmm/m/it/14.4 y[]y[]y[] \OT1/cmr/m/n
+/14.4 + \OML/cmm/m/it/14.4 y[]y[]\OT1/cmr/m/n/14.4 ) + [] = 0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--463
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+[16 <./Q8-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 468--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--475
+
+ []
+
+[17] (Euler.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+)
+(Leapfrog.m
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 11.
+
+("C:\Users\Amit\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 11.
+
+[18]) (RK4.m) [19] (RK4S2.m [20]) (func.m) (func2.m) (func3.m) [21]
+(WriteUp.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4869 strings out of 492970
+ 68440 string characters out of 3127037
+ 447806 words of memory out of 3000000
+ 8675 multiletter control sequences out of 15000+200000
+ 6563 words of font info for 24 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,10n,40p,525b,1845s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Amit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Amit/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Amit/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Amit/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+rs/Amit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on WriteUp.pdf (21 pages, 261038 bytes).
+PDF statistics:
+ 167 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
